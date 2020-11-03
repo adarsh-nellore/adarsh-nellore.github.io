@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/adarsh-nellore/static/css/main.31ed4367.chunk.css",
-    "main.js": "/adarsh-nellore/static/js/main.f61ca067.chunk.js",
-    "main.js.map": "/adarsh-nellore/static/js/main.f61ca067.chunk.js.map",
+    "main.js": "/adarsh-nellore/static/js/main.fb67f691.chunk.js",
+    "main.js.map": "/adarsh-nellore/static/js/main.fb67f691.chunk.js.map",
     "runtime-main.js": "/adarsh-nellore/static/js/runtime-main.333dd5ab.js",
     "runtime-main.js.map": "/adarsh-nellore/static/js/runtime-main.333dd5ab.js.map",
     "static/css/2.55b94672.chunk.css": "/adarsh-nellore/static/css/2.55b94672.chunk.css",
@@ -46,6 +46,6 @@
     "static/css/2.55b94672.chunk.css",
     "static/js/2.e1318df1.chunk.js",
     "static/css/main.31ed4367.chunk.css",
-    "static/js/main.f61ca067.chunk.js"
+    "static/js/main.fb67f691.chunk.js"
   ]
 }

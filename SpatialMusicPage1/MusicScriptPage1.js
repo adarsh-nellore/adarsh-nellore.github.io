@@ -222,7 +222,7 @@ function createRoom() {
 //"../../../../SpatialMusicPage2/MusicPage2.html?roomdimensions=" +
 
       
-        "https://adarshnellore.github.io/adarsh-nellore/SpatialMusicPage2/MusicPage2.html?roomdimensions="
+        "https://adarsh-nellore.github.io/SpatialMusicPage2/MusicPage2.html?roomdimensions="
     );
     console.log(
       " Opening new window with dimensions =" + differenceInDimensions
