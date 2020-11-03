@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/adarsh-nellore/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/adarsh-nellore/static/js/main.af0d7da6.chunk.js",
+    "main.js.map": "/adarsh-nellore/static/js/main.af0d7da6.chunk.js.map",
+    "runtime-main.js": "/adarsh-nellore/static/js/runtime-main.ffe36487.js",
+    "runtime-main.js.map": "/adarsh-nellore/static/js/runtime-main.ffe36487.js.map",
+    "static/js/2.bc3aedc0.chunk.js": "/adarsh-nellore/static/js/2.bc3aedc0.chunk.js",
+    "static/js/2.bc3aedc0.chunk.js.map": "/adarsh-nellore/static/js/2.bc3aedc0.chunk.js.map",
+    "static/js/3.3806f3e2.chunk.js": "/adarsh-nellore/static/js/3.3806f3e2.chunk.js",
+    "static/js/3.3806f3e2.chunk.js.map": "/adarsh-nellore/static/js/3.3806f3e2.chunk.js.map",
+    "index.html": "/adarsh-nellore/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/adarsh-nellore/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.bc3aedc0.chunk.js.LICENSE.txt": "/adarsh-nellore/static/js/2.bc3aedc0.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/adarsh-nellore/static/media/logo.103b5fa1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ffe36487.js",
+    "static/js/2.bc3aedc0.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.af0d7da6.chunk.js"
+  ]
+}
