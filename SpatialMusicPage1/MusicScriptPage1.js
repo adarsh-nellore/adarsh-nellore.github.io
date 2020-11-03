@@ -219,12 +219,10 @@ function createRoom() {
   
     var panningwindow = window.open(
      
-"../../../../SpatialMusicPage2/SpatialMusicPage2.html?roomdimensions=" +
+//"../../../../SpatialMusicPage2/MusicPage2.html?roomdimensions=" +
+
       
-        differenceInDimensions +
-        ";",
-      "_blank",
-      "toolbar=0,location=0,menubar=0"
+        "https://adarshnellore.github.io/adarsh-nellore/SpatialMusicPage2/MusicPage2.html?roomdimensions="
     );
     console.log(
       " Opening new window with dimensions =" + differenceInDimensions
