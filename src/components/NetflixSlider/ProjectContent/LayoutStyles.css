@@ -1,0 +1,114 @@
+.fullRow {
+    
+    text-align: center;
+    color:black;
+    width:90%;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  margin-top:3vh;
+  
+    height:80vh;
+
+  
+  }
+  .fullRowHalfHeight {
+    
+    text-align: center;
+    color:black;
+    width:90%;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  margin-top:2vh;
+  
+    height:50vh;
+    background-color:black;
+    border: solid 1px black;
+
+  
+  }
+  .fullRowHalfHeightTxt {
+    
+    text-align: center;
+    color:black;
+    width:90%;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  margin-top:2vh;
+  
+  
+  
+
+  
+  }
+  .fullRowOneFourthHeight {
+    
+    text-align: center;
+    color:rgb(253, 232, 232);
+    width:90%;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  margin-top:2vh;
+  
+    height:25vh;
+   
+
+  
+  }
+
+
+ 
+  .halfWidthContentLeft{
+    display: inline-block;
+    
+    float: left;
+    color:black;
+width: 45%;
+margin-left:5vw;
+padding-top: 2vw;
+    height:50vh;
+
+  
+  }
+  .halfWidthContentRight{
+    display: inline-block;
+    
+    color:black;
+    width: 40%;
+    float: right;
+    padding-top: 2vw;
+    
+margin-right: 5vw;
+    height:50vh;
+  
+  }
+  .HalfWidthOneFourthHeightContentLeft{
+    display: inline-block;
+    padding-top: 2vw;
+    color:black;
+    width: 40%;
+    float: left;
+    margin-left: 5vw;
+  
+   
+  
+  }
+ 
+  .HalfWidthOneFourthHeightContentRight{
+    display: inline-block;
+    padding-top: 2vw;
+    color:black;
+    width: 40%;
+    float: right;
+   
+    margin-right: 5vw;
+    
+  
+  }
+ 
+
+
+  .musicTxt {
+    color:'#222222';
+    width:100%;
+  
+  }
