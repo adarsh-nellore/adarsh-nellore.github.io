@@ -4,17 +4,75 @@ import Slider from '.'
 import '../../App.scss'
 
 
+import CenterpointVideo from '../../assets/Project-Video-Centerpoint.mp4';
+import CenterpointPhoto from '../../assets/Project-Photo-Centerpoint.jpg';
+
+import EdwardsVideo from '../../assets/Project-Video-Edwards.mp4';
+import EdwardsPhoto from '../../assets/Project-Photo-Edwards.jpg';
+
+import SpaceVideo from '../../assets/Project-Video-Space.mp4';
+import SpacePhoto from '../../assets/Project-Photo-Space.jpg';
+
+import SpatialVideo from '../../assets/Project-Video-Spatial.mp4';
+import SpatialPhoto from '../../assets/Project-Photo-Spatial.jpg';
+
+import SumoVideo from '../../assets/Project-Video-Sumo.mp4';
+import SumoPhoto from '../../assets/Project-Photo-Sumo.jpg';
+
+
 class SliderApp extends Component {
 
   state = {
     //photos: [],
     movies: [
-      {}],
+      {
+        id: 1,
+        image: EdwardsVideo,
+        imageBg: EdwardsPhoto ,
+        title: "Edwards"
+
+      },
+      {
+        id: 1,
+        image: SpatialVideo,
+        imageBg: SpatialPhoto,
+        title: "Spatial"
+
+      },
+      {
+        id: 1,
+        image: SpaceVideo,
+        imageBg: SpacePhoto ,
+        title: "Space"
+
+      },
+      {
+        id: 1,
+        image: CenterpointVideo,
+        imageBg: CenterpointPhoto ,
+        title: "Centerpoint"
+
+      },
+      {
+        id: 1,
+        image: SumoVideo,
+        imageBg: SumoPhoto ,
+        title: "Sumo"
+
+      }
+    
+    ],
     loading: true,
     query: ''
   }
+
+  
   componentDidMount() {
-    const apiKey = '28c3d5434f6a9aecf0dc3871bdd8ce7c';
+
+ /*
+ Removing flickr dependency for now due to security issues
+ 
+  const apiKey = '28c3d5434f6a9aecf0dc3871bdd8ce7c';
     const baseurl = 'https://api.flickr.com/services/rest/';
     const methodname = 'flickr.photos.search';
     const userid = '189664396@N03';
@@ -34,7 +92,7 @@ class SliderApp extends Component {
 
         for (var i = 0; i < a.length; i++) {
           const thisvideo = a[i];
-          const foundphoto = flickrresponse.filter(thisphoto => thisvideo.title.replace('Project-Video-', '') === thisphoto.title.replace('Project-Photo-', ''));
+          const foundphoto = flickrresponse.filter(thisphoto => thisvideo.title.replace('his-', '') === thisphoto.title.replace('Project-Photo-', ''));
 
           if (foundphoto.length > 0) {
 
@@ -61,10 +119,12 @@ class SliderApp extends Component {
       .catch(error => {
         console.log('Julie. Error fetching and parsing data', error)
       })
-
+*/
 
 
   }
+
+  
 
 
   render() {

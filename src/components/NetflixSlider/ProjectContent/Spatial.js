@@ -76,7 +76,7 @@ const useStyles = makeStyles(theme => ({
     fontFamily: 'Courier New',
     fontSize: 12,
     textShadow: 'none',
-    resizeMode: 'contain',
+    overflow:'auto'
 
 
 
@@ -227,13 +227,13 @@ export default function Spatial() {
      
 
         <YouTube  className ="fullRowHalfHeight" videoId="zDk8pVOtiVY"  />
-        <div className="fullRowOneFourthHeight">
+        <div className="fullRowNohHeight">
         <h3 className={classes.paper}>
               <mark>Hypothesis of natural spatial arrangement: </mark> The closer a song's frequency distribution is to that of 1/f noise, the more the song will invoke feelings of being in a larger physical space. 
               Let's test this theory out.</h3></div>
               
 
-<div className="fullRowOneFourthHeight">
+<div className="fullRowNohHeight">
 <body className={classes.paper}>
               <mark>Experiment:</mark> Between the songs "New Magic Wand" by Tyler the Creator and "Everything in Its Right Place" by Radiohead, I felt that the latter had a much more 'spatial' arrangement - using 
               more elements that are reminiscent of larger spaces such as reverberation and ambient sound.
