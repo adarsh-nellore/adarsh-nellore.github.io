@@ -13,8 +13,9 @@ class MyRouter extends Component {
 
     render () {
         return (     
-            <div className="MyRouter">
+            <div>
                 <header>
+                    
                     <nav>
                         <ul className="navbar">
                         <li className="navbar__link"><NavLink

@@ -8,6 +8,8 @@ import HoverVideoPlayer from 'react-hover-video-player';
 
 
 
+
+
 const Item = ({ movie }) => (
   
   <SliderContext.Consumer>

@@ -1,7 +1,7 @@
 import React from 'react';
 import IconCross from './../Icons/IconCross';
 import './Content.scss';
-import ProjectDetailsApp from './ProjectDetailsApp'
+//import ProjectDetailsApp from './ProjectDetailsApp'
 import AutoLayout from './AutoLayout'
 import ChooseProject from './ChooseProject'
 

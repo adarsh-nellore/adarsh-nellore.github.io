@@ -166,6 +166,38 @@ class SliderApp extends Component {
       title: "Sumo"
     });
 
+    newStateArray.push({
+
+      id: 6,
+      image: SumoVideo,
+      imageBg: SumoPhoto,
+      title: "Sumo"
+    });
+
+    newStateArray.push({
+
+      id: 7,
+      image: SumoVideo,
+      imageBg: SumoPhoto,
+      title: "Sumo"
+    });
+
+    newStateArray.push({
+
+      id: 8,
+      image: SumoVideo,
+      imageBg: SumoPhoto,
+      title: "Sumo"
+    });
+
+    newStateArray.push({
+
+      id: 9,
+      image: SumoVideo,
+      imageBg: SumoPhoto,
+      title: "Sumo"
+    });
+
 
 
     this.setState({

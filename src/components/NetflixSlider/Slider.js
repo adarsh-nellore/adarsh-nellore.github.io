@@ -50,7 +50,7 @@ const Slider = ({ children, activeSlide }) => {
     <Fade>
       
     <SliderContext.Provider value={contextValue}>
-    {/* <Parallax y={[0,10]} tagOuter="figure"> */}
+   {/*  <Parallax y={[0,10]} tagOuter="figure">  */}
       <SliderWrapper>
         <div
           className={cx('slider', { 'slider--open': currentSlide != null })}
@@ -61,7 +61,7 @@ const Slider = ({ children, activeSlide }) => {
         {hasNext && <SlideButton onClick={handleNext} type="next" />}
       </SliderWrapper>
       {currentSlide && <Content movie={currentSlide} onClose={handleClose} />}
-      {/* </Parallax> */}
+     {/* </Parallax>  */}
     </SliderContext.Provider>
     
      </Fade>
