@@ -4,8 +4,8 @@ import Slider from '.'
 import '../../App.scss'
 
 
-import CenterpointVideo from '../../assets/Project-Video-Centerpoint.mp4';
-import CenterpointPhoto from '../../assets/Project-Photo-Centerpoint.jpg';
+import CenterpointVideo from '../../../src/assets/Project-Video-Centerpoint.mp4';
+import CenterpointPhoto from '../../../src/assets/Project-Photo-Centerpoint.jpg';
 
 import EdwardsVideo from '../../assets/Project-Video-Edwards.mp4';
 import EdwardsPhoto from '../../assets/Project-Photo-Edwards.jpg';
@@ -28,7 +28,7 @@ class SliderApp extends Component {
       {
         id: 1,
         image: EdwardsVideo,
-        imageBg: EdwardsPhoto ,
+        imageBg: EdwardsPhoto,
         title: "Edwards"
 
       },
@@ -67,11 +67,11 @@ class SliderApp extends Component {
   }
 
   
-  componentDidMount() {
+  /*componentDidMount() {*/
 
  /*
  Removing flickr dependency for now due to security issues
- 
+
   const apiKey = '28c3d5434f6a9aecf0dc3871bdd8ce7c';
     const baseurl = 'https://api.flickr.com/services/rest/';
     const methodname = 'flickr.photos.search';
@@ -122,7 +122,7 @@ class SliderApp extends Component {
 */
 
 
-  }
+  /*}*/
 
   
 
