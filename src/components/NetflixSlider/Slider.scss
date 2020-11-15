@@ -44,50 +44,50 @@ body{
   }
 
   &:not(&--open) .item:hover {
-    transform: scale(1.15) !important;
+    // transform: scale(1.15) !important;
     opacity: 0.85;
-    @keyframes float {
-      0% {
-        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-        transform: translateY(0px);
-      }
-      50% {
-        box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
-        transform: translateY(-20px);
-      }
-      100% {
-        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-        transform: translateY(0px);
-      }
-    }
+    // @keyframes float {
+    //   0% {
+    //     box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    //     transform: translateY(0px);
+    //   }
+    //   50% {
+    //     box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+    //     transform: translateY(-20px);
+    //   }
+    //   100% {
+    //     box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    //     transform: translateY(0px);
+    //   }
+    // }
     
    
   }
 
-  &:not(&--open):hover .item {
-    transform: translateX(0%);
-  }
+  // &:not(&--open):hover .item {
+  //   transform: translateX(0%);
+  // }
 
-  &:not(&--open) .item:hover ~ .item {
-    transform: translateX(3.75%);
-  }
+  // &:not(&--open) .item:hover ~ .item {
+  //   transform: translateX(3.75%);
+  // }
 
 
 
 
   &:not(&--open) .item:click {
-    transform: scale(1.25) !important;
+    // transform: scale(1.25) !important;
     box-shadow: 15px 5px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 15px 0 rgba(0, 0, 0, 0.19);
     opacity: 0.5;
     
   }
 
-  &:not(&--open):click .item {
-    transform: translateX(0%);
-  }
+  // &:not(&--open):click .item {
+  //   transform: translateX(0%);
+  // }
 
-  &:not(&--open) .item:click ~ .item {
-    transform: translateX(3.75%);
-  }
+  // &:not(&--open) .item:click ~ .item {
+  //   transform: translateX(3.75%);
+  // }
 }
 

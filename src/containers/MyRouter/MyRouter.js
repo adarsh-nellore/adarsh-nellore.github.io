@@ -4,7 +4,8 @@ import { Route, NavLink, Switch, Redirect } from 'react-router-dom';
 
 import About from '../About/About';
 import Communication from '../Communication/Communication';
-import Projects from "../Projects/Projects";
+import DesignWork from "../DesignWork/DesignWork";
+import EngineeringWork from '../EngineeringWork/EngineeringWork';
 import Home from '../Home/Home';
 import './MyRouter.css';
 
@@ -25,24 +26,32 @@ class MyRouter extends Component {
                                 activeStyle={{
                                     color: '#ff0000'
                                 }}
-                                >HOME.</NavLink></li>
+                                >  HOME  //  </NavLink></li>
 
 
-                            <li className="navbar__link"><NavLink
+                            {/* <li className="navbar__link"><NavLink
                                 to="/About/"
                                 exact
                                 activeClassName="my-active"
                                 activeStyle={{
                                     color: '#ff0000'
-                                }}>ABOUT.</NavLink></li>
+                                }}>ABOUT.</NavLink></li> */}
 
                             <li className="navbar__link"><NavLink
-                                to="/Projects/"
+                                to="/DesignWork/"
                                 exact
                                 activeClassName="my-active"
                                 activeStyle={{
                                     color: '#ff0000'
-                                }}>PROJECTS.</NavLink></li>
+                                }}>  DESIGN WORK  //  </NavLink></li>
+
+                            <li className="navbar__link"><NavLink   
+                                to="/EngineeringWork/"
+                                exact
+                                activeClassName="my-active"
+                                activeStyle={{
+                                    color: '#ff0000'
+                                }}>  ENGINEERING WORK  //  </NavLink></li>
 
                             <li className="navbar__link"><NavLink
                                 to="/Communication/"
@@ -50,7 +59,7 @@ class MyRouter extends Component {
                                 activeClassName="my-active"
                                 activeStyle={{
                                     color: '#ff0000'
-                                }}>COMMUNICATION.</NavLink></li>
+                                }}>  COMS.LANGUAGE.WIP</NavLink></li>
 
                         </ul>
                     </nav>
@@ -60,7 +69,8 @@ class MyRouter extends Component {
 
                 <Switch>
                             <Route path="/About" component={About} />
-                            <Route path="/Projects" component={Projects} />
+                            <Route path="/DesignWork" component={DesignWork} />
+                            <Route path="/EngineeringWork" component={EngineeringWork} />
                             <Route path="/Communication" component={Communication} />
                             <Route path="/" exact component={Home} />
 

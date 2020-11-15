@@ -10,12 +10,12 @@ class Home extends Component{
         return (
             <div id="Home" >
           
-                <h1>Adarsh Nellore</h1>
+                {/* <h1>Adarsh Nellore</h1>
                 
                 <Clock format={'HH:mm:ss'} ticking={true} timezone={'US/Pacific'}  />
 
                 <label>{"\n"} Developed with react.js</label>
-              
+               */}
                
                 
             </div>
