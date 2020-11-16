@@ -237,7 +237,7 @@ export default function Spatial() {
     </div>
      
          
-    <img className="fullRow" src={userjourney} alt="User journey"/> 
+    <img className="halfRowHalfHeight" src={userjourney} alt="User journey"/> 
 
 
   <video className="fullRow" controls showOnStart autoPlay loop muted>

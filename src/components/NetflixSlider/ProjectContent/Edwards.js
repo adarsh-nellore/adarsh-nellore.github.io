@@ -90,7 +90,7 @@ export default function Edwards() {
 
 
        
-            <img className="halfRowHalfHeight" src={Valvegif} alt="Valve"/>
+            <img className="halfRowThreeLongerHeight" src={Valvegif} alt="Valve"/>
         
 
           <div className="fullRowNohHeightTxt">

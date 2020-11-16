@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import classes from './Communication.css'
 import Aux from '../../components/NetflixSlider/Aux'
+import { makeStyles } from "@material-ui/core/styles";
 
 import board1 from '../../assets/Communication/board1.jpg'
 import board2 from '../../assets/Communication/board2.jpg'
@@ -23,11 +24,13 @@ import '../../styles/LayoutStyles.css'
 
 class Communication extends Component{
 
+  
+
     render () {
         return (
           <Aux>
          <div class="container">
-            <div class="item">The Complexion Project: Designing for Diasporic and Evolutionary Interior Spaces</div>
+            <div class="item" className={classes.paper}>The Complexion Project: Designing for Diasporic and Evolutionary Interior Spaces</div>
             <div class="item">The Complexion Project: Physical and Anthropological Biometric Data</div>
             <div class="item">Fuck Commitee Mentality - Tom Sachs, Van Neistat</div>
             <div class="item">Our world of overly defined and capitalist interaction. Creating a more democratic, autonomous future by increasing necessity for freedom of movement.</div>
@@ -47,7 +50,12 @@ class Communication extends Component{
             <img className="fullRow" src={magnet2} />
             <img className="fullRow" src={magnetbox} />
 
-            'Filings and flowers'
+            <div className="fullRowNohHeightTxt">
+            <body className={classes.paper}>
+            Filings and flowers</body>
+          </div>
+       
+            
             <img className="fullRow" src={filings} />
             <img className="fullRow" src={namaste} />
             <img className="fullRow" src={clasp} />

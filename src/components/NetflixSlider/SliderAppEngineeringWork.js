@@ -90,6 +90,7 @@ class SliderApp extends Component {
       imageBg: EdwardsPhoto,
       title: "Edwards"
     });
+    
 
  
 

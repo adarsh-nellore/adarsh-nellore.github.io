@@ -11,6 +11,21 @@
     margin: 0 2px;
     transition: transform 300ms ease 100ms;
   }
+
+  .paper {
+   text-align:left;
+   color: black;
+    word-spacing: 1px;
+    background-color: 'transparent';
+    box-shadow: 'none';
+    font-family: 'Courier New';
+    font-size: 11;
+    text-shadow: 'none';
+    resize: 'contain';
+    display: "flex";
+    padding: spacing(2);
+
+  }
   
   /* .container:hover .item {
     transform: translateX(-7.5%);
