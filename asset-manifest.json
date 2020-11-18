@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.4e88433d.chunk.css",
-    "main.js": "/static/js/main.08d5cb46.chunk.js",
-    "main.js.map": "/static/js/main.08d5cb46.chunk.js.map",
+    "main.js": "/static/js/main.482966ae.chunk.js",
+    "main.js.map": "/static/js/main.482966ae.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3183b3de.js",
     "runtime-main.js.map": "/static/js/runtime-main.3183b3de.js.map",
     "static/css/2.55b94672.chunk.css": "/static/css/2.55b94672.chunk.css",
@@ -30,7 +30,7 @@
     "static/media/Valve.ef26a47d.gif": "/static/media/Valve.ef26a47d.gif",
     "static/media/board1.13b1fe30.jpg": "/static/media/board1.13b1fe30.jpg",
     "static/media/board2.2b97dc8c.jpg": "/static/media/board2.2b97dc8c.jpg",
-    "static/media/board3.a76abe98.jpg": "/static/media/board3.a76abe98.jpg",
+    "static/media/board3.b05d3bcf.jpg": "/static/media/board3.b05d3bcf.jpg",
     "static/media/board4.bd6f9586.jpg": "/static/media/board4.bd6f9586.jpg",
     "static/media/butt.25f26c41.jpg": "/static/media/butt.25f26c41.jpg",
     "static/media/catheter.be0ddb1b.jpg": "/static/media/catheter.be0ddb1b.jpg",
@@ -41,18 +41,18 @@
     "static/media/clasp.89ad251a.png": "/static/media/clasp.89ad251a.png",
     "static/media/closeup.527f8b77.MP4": "/static/media/closeup.527f8b77.MP4",
     "static/media/edwards.22d7c816.mp4": "/static/media/edwards.22d7c816.mp4",
-    "static/media/filings.dfbfe124.jpg": "/static/media/filings.dfbfe124.jpg",
+    "static/media/filings.aae463b7.jpg": "/static/media/filings.aae463b7.jpg",
     "static/media/flowers.70371628.jpg": "/static/media/flowers.70371628.jpg",
     "static/media/fullstylus.8c4a0048.jpg": "/static/media/fullstylus.8c4a0048.jpg",
     "static/media/hand.2206705e.jpg": "/static/media/hand.2206705e.jpg",
     "static/media/inaction.1fd4a134.mp4": "/static/media/inaction.1fd4a134.mp4",
-    "static/media/magnet1.5b0d4d58.png": "/static/media/magnet1.5b0d4d58.png",
+    "static/media/magnet1.6ea1e516.png": "/static/media/magnet1.6ea1e516.png",
     "static/media/magnet2.9f9a914f.png": "/static/media/magnet2.9f9a914f.png",
     "static/media/magnetbox.0a2eab30.jpg": "/static/media/magnetbox.0a2eab30.jpg",
     "static/media/motorcontrol.ad0ba209.jpg": "/static/media/motorcontrol.ad0ba209.jpg",
     "static/media/museum.569b4e31.jpg": "/static/media/museum.569b4e31.jpg",
     "static/media/musicalchart.a8d5c3ff.jpg": "/static/media/musicalchart.a8d5c3ff.jpg",
-    "static/media/namaste.fb3e1198.jpg": "/static/media/namaste.fb3e1198.jpg",
+    "static/media/namaste.1942fe8c.jpg": "/static/media/namaste.1942fe8c.jpg",
     "static/media/pinknoise.30ab0d32.jpg": "/static/media/pinknoise.30ab0d32.jpg",
     "static/media/questions.95e43514.png": "/static/media/questions.95e43514.png",
     "static/media/radiohead.4d091091.jpg": "/static/media/radiohead.4d091091.jpg",
@@ -74,6 +74,6 @@
     "static/css/2.55b94672.chunk.css",
     "static/js/2.a6bb6c39.chunk.js",
     "static/css/main.4e88433d.chunk.css",
-    "static/js/main.08d5cb46.chunk.js"
+    "static/js/main.482966ae.chunk.js"
   ]
 }
