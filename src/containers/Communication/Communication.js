@@ -37,15 +37,11 @@ class Communication extends Component{
             <div class="item">5</div>
           </div>
 
-          <div>
+        
             <img className="fullRow" src={board1} />
             <img className="fullRow" src={board2} />
             <img className="fullRow" src={board3} />
             <img className="fullRow" src={board4} />
-
-          </div>
-
-          <div>
             <img className="fullRow" src={magnet1} />
             <img className="fullRow" src={magnet2} />
             <img className="fullRow" src={magnetbox} />
@@ -53,7 +49,7 @@ class Communication extends Component{
             <div className="fullRowNohHeightTxt">
             <body className={classes.paper}>
             Filings and flowers</body>
-          </div>
+        </div>
        
             
             <img className="fullRow" src={filings} />
@@ -63,7 +59,7 @@ class Communication extends Component{
             
         
 
-          </div>
+         
           </Aux>
         );
 }
