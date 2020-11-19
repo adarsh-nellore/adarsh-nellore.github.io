@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.4e88433d.chunk.css",
-    "main.js": "/static/js/main.482966ae.chunk.js",
-    "main.js.map": "/static/js/main.482966ae.chunk.js.map",
+    "main.css": "/static/css/main.baaf995e.chunk.css",
+    "main.js": "/static/js/main.8d84c46c.chunk.js",
+    "main.js.map": "/static/js/main.8d84c46c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3183b3de.js",
     "runtime-main.js.map": "/static/js/runtime-main.3183b3de.js.map",
     "static/css/2.55b94672.chunk.css": "/static/css/2.55b94672.chunk.css",
-    "static/js/2.a6bb6c39.chunk.js": "/static/js/2.a6bb6c39.chunk.js",
-    "static/js/2.a6bb6c39.chunk.js.map": "/static/js/2.a6bb6c39.chunk.js.map",
+    "static/js/2.41f6ae05.chunk.js": "/static/js/2.41f6ae05.chunk.js",
+    "static/js/2.41f6ae05.chunk.js.map": "/static/js/2.41f6ae05.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.55b94672.chunk.css.map": "/static/css/2.55b94672.chunk.css.map",
-    "static/css/main.4e88433d.chunk.css.map": "/static/css/main.4e88433d.chunk.css.map",
-    "static/js/2.a6bb6c39.chunk.js.LICENSE.txt": "/static/js/2.a6bb6c39.chunk.js.LICENSE.txt",
-    "static/media/AI_Image2_2.e5217bb0.jpg": "/static/media/AI_Image2_2.e5217bb0.jpg",
+    "static/css/main.baaf995e.chunk.css.map": "/static/css/main.baaf995e.chunk.css.map",
+    "static/js/2.41f6ae05.chunk.js.LICENSE.txt": "/static/js/2.41f6ae05.chunk.js.LICENSE.txt",
     "static/media/Binaural.e11c6075.mp4": "/static/media/Binaural.e11c6075.mp4",
     "static/media/HeartValves3.7fc3f122.jpg": "/static/media/HeartValves3.7fc3f122.jpg",
     "static/media/Project-Photo-Centerpoint.c26e1c94.jpg": "/static/media/Project-Photo-Centerpoint.c26e1c94.jpg",
@@ -42,7 +41,6 @@
     "static/media/closeup.527f8b77.MP4": "/static/media/closeup.527f8b77.MP4",
     "static/media/edwards.22d7c816.mp4": "/static/media/edwards.22d7c816.mp4",
     "static/media/filings.aae463b7.jpg": "/static/media/filings.aae463b7.jpg",
-    "static/media/flowers.70371628.jpg": "/static/media/flowers.70371628.jpg",
     "static/media/fullstylus.8c4a0048.jpg": "/static/media/fullstylus.8c4a0048.jpg",
     "static/media/hand.2206705e.jpg": "/static/media/hand.2206705e.jpg",
     "static/media/inaction.1fd4a134.mp4": "/static/media/inaction.1fd4a134.mp4",
@@ -72,8 +70,8 @@
   "entrypoints": [
     "static/js/runtime-main.3183b3de.js",
     "static/css/2.55b94672.chunk.css",
-    "static/js/2.a6bb6c39.chunk.js",
-    "static/css/main.4e88433d.chunk.css",
-    "static/js/main.482966ae.chunk.js"
+    "static/js/2.41f6ae05.chunk.js",
+    "static/css/main.baaf995e.chunk.css",
+    "static/js/main.8d84c46c.chunk.js"
   ]
 }
