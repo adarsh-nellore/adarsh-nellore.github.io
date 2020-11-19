@@ -6,10 +6,8 @@ import SlideButton from './SlideButton'
 import SliderWrapper from './SliderWrapper'
 import useSliding from './useSliding'
 import useSizeElement from './useSizeElement'
-import axios from 'axios';
-import './Slider.scss'
+import './SliderStyles/Slider.scss'
 import Fade from 'react-reveal/Fade';
-import { Parallax } from 'react-scroll-parallax';
 
 
 

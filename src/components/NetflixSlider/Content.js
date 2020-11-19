@@ -1,8 +1,5 @@
 import React from 'react';
-import IconCross from './../Icons/IconCross';
-import './Content.scss';
-//import ProjectDetailsApp from './ProjectDetailsApp'
-import AutoLayout from './AutoLayout'
+import './SliderStyles/Content.scss';
 import ChooseProject from './ChooseProject'
 
 

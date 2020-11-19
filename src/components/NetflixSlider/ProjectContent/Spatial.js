@@ -1,13 +1,13 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Aux from '../Aux'
-import './Centerpoint.css'
+import './ProjectStyles/Centerpoint.css'
 import '../../../../node_modules/video-react/dist/video-react.css';
 import '../../../styles/LayoutStyles.css';
-import './video-react.css';
+import './ProjectStyles/video-react.css';
 
 // Images and videos
-import spatialVideo from '../../../assets/SpatialDemo.mov'
+import spatialVideo from '../../../assets/spatialmaterials/SpatialDemo.mov'
 import spatialIntro from '../../../assets/spatialmaterials/spatialIntro.jpg'
 import reverb from '../../../assets/spatialmaterials/reverb.jpg'
 import reverb2 from '../../../assets/spatialmaterials/reverb2.png'

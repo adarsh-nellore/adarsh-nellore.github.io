@@ -1,5 +1,5 @@
 import React from 'react'
-import './SliderWrapper.scss'
+import './SliderStyles/SliderWrapper.scss'
 
 const SliderWrapper = ({ children }) => (
   <div className="slider-wrapper">

@@ -1,18 +1,17 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Aux from '../Aux'
-import './Centerpoint.css'
+import './ProjectStyles/Centerpoint.css'
 // import ParallaxProvider from 'react-scroll-parallax'
 // import { Parallax } from 'react-scroll-parallax';
 import introImage from '../../../assets/centerpointmaterials/sitting.jpg';
 import centerpointMovie from '../../../assets/centerpointmaterials/centerpoint.mov'
 import chairDiagram from '../../../assets/centerpointmaterials/chairdiagram2.jpg';
 import centerpointWhole from '../../../assets/centerpointmaterials/centerpointwhole.jpg'
-import { Player } from 'video-react'
 import '../../../styles/LayoutStyles.css';
 
 //import  '../../../../node_modules/video-react/dist/video-react.css';
-import  './video-react.css';
+import './ProjectStyles/video-react.css';
 
 
 const useStyles = makeStyles(theme => ({

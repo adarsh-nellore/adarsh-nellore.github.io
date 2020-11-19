@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import classes from './Communication.css'
 import Aux from '../../components/NetflixSlider/Aux'
-import { makeStyles } from "@material-ui/core/styles";
 
 import board1 from '../../assets/Communication/board1.jpg'
 import board2 from '../../assets/Communication/board2.jpg'
@@ -13,7 +12,6 @@ import magnet2 from '../../assets/Communication/magnet2.png'
 
 import magnetbox from '../../assets/Communication/magnetbox.jpg'
 import filings from '../../assets/Communication/filings.jpg'
-import flowers from '../../assets/Communication/flowers.jpg'
 
 import namaste from '../../assets/Communication/namaste.jpg'
 

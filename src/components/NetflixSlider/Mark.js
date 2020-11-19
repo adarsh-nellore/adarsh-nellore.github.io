@@ -1,5 +1,5 @@
 import React from 'react'
-import './Mark.scss'
+import './SliderStyles/Mark.scss'
 
 const Mark = () => (<div className="mark" />)
 

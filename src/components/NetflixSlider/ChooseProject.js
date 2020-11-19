@@ -27,9 +27,6 @@ const ChooseProject = ({movie}) => {
     case 'Spatial':
       chosencontent =<Spatial></Spatial>
       break;
-    case 'Edwards':
-      chosencontent =<Edwards></Edwards>
-      break;
     default:
       //chosencontent =<Spatial></Spatial>
       break;

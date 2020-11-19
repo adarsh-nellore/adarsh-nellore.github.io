@@ -34,7 +34,7 @@ return (
       <Grid container spacing={5}>
       <Grid container item xs={2} spacing={1}>
         <Fade bottom>
-          <Paper className={classes.paper}><img src={image} resizeMode='contain' width="1000" height="600" /></Paper>
+          <Paper className={classes.paper}><img alt="" src={image} resizeMode='contain' width="1000" height="600" /></Paper>
         </Fade>
         </Grid>
         <Grid container item xs={5} spacing={1}>

@@ -15,7 +15,6 @@ import slant from '../../../assets/SumoMaterials/slant.jpg'
 
 import Aux from '../../../components/NetflixSlider/Aux'
 
-import { Player } from 'video-react';
 import '../../../../node_modules/video-react/dist/video-react.css';
 import '../../../styles/LayoutStyles.css';
 

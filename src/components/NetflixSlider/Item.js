@@ -1,8 +1,6 @@
 import React from 'react';
 import cx from 'classnames';
 import SliderContext from './context'
-import ShowDetailsButton from './ShowDetailsButton'
-import Mark from './Mark'
 import './Item.scss'
 import HoverVideoPlayer from 'react-hover-video-player';
 
@@ -48,9 +46,6 @@ const Item = ({ movie }) => (
             // The video and overlays should expand to fill the 16:9 container
             sizingMode="container"
           />
-          {/* <ShowDetailsButton onClick={() => onSelectSlide(movie)} />
-           */}
-          {/* {isActive && <Mark />} */}
         </div>
       );
     }}

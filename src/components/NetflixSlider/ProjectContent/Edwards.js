@@ -3,16 +3,16 @@ import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import Fade from 'react-reveal/Fade';
 import Aux from '../Aux'
-import './Centerpoint.css'
+import './ProjectStyles/Centerpoint.css'
 import '../../../styles/LayoutStyles.css';
-import './video-react.css';
+import './ProjectStyles/video-react.css';
 
 //Images and videos
-import catheterImage from '../../../assets/catheter.jpg'
-import heartValve from '../../../assets/HeartValves3.jpg'
-import Valvegif from '../../../assets/Valve.gif'
+import catheterImage from '../../../assets/Edwards_Materials/catheter.jpg'
+import heartValve from '../../../assets/Edwards_Materials/HeartValves3.jpg'
+import Valvegif from '../../../assets/Edwards_Materials/Valve.gif'
 import TextLoop from "react-text-loop";
-import tavrVideo from '../../../assets/edwards.mp4'
+import tavrVideo from '../../../assets/Edwards_Materials/edwards.mp4'
 
 const useStyles = makeStyles(theme => ({
   root: {
