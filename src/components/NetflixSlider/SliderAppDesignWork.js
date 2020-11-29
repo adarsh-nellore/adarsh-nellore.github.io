@@ -27,14 +27,14 @@ class SliderApp extends Component {
     {
 
         id: 2,
-        image: SpatialVideo,
+      //  image: SpatialVideo,
         imageBg: SpatialPhoto,
         title: "Spatial"
       },
      {
   
         id: 3,
-        image: SpaceVideo,
+    //    image: SpaceVideo,
         imageBg: SpacePhoto,
         title: "Space"
       },
@@ -42,7 +42,7 @@ class SliderApp extends Component {
      {
   
         id: 4,
-        image: CenterpointVideo,
+    //    image: CenterpointVideo,
         imageBg: CenterpointPhoto,
         title: "Centerpoint"
       },
@@ -50,7 +50,7 @@ class SliderApp extends Component {
      {
   
         id: 5,
-        image: SumoVideo,
+   //     image: SumoVideo,
         imageBg: SumoPhoto,
         title: "Sumo"
       },
@@ -123,14 +123,14 @@ class SliderApp extends Component {
     newStateArray.push({
 
       id: 2,
-      image: SpatialVideo,
+  //    image: SpatialVideo,
       imageBg: SpatialPhoto,
       title: "Spatial"
     });
     newStateArray.push({
 
       id: 3,
-      image: SpaceVideo,
+  //    image: SpaceVideo,
       imageBg: SpacePhoto,
       title: "Space"
     });
@@ -138,7 +138,7 @@ class SliderApp extends Component {
     newStateArray.push({
 
       id: 4,
-      image: CenterpointVideo,
+   //   image: CenterpointVideo,
       imageBg: CenterpointPhoto,
       title: "Centerpoint"
     });
@@ -146,7 +146,7 @@ class SliderApp extends Component {
     newStateArray.push({
 
       id: 5,
-      image: SumoVideo,
+ //     image: SumoVideo,
       imageBg: SumoPhoto,
       title: "Sumo"
     });

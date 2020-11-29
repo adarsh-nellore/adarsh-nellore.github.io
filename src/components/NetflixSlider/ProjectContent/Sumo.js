@@ -25,12 +25,13 @@ const useStyles = makeStyles(theme => ({
     paper: {
       padding: theme.spacing(2),
       textAlign: "justify",
+      // color: '#0000ff',
       color: '#222222',
       wordSpacing: "-1px",
       backgroundColor: 'transparent',
       boxShadow: 'none',
-      fontFamily: 'Courier New',
-      fontSize: 12,
+      fontFamily: 'Arial',
+      fontSize: 25,
       textShadow: 'none',
       overflow:'auto'  
   
@@ -51,7 +52,7 @@ export default function Sumo() {
         <Aux>
 
 
-      <div className="oneFourthWidthContentLeft">
+      <div className="threeFourthWidthContentLeft">
         <h1 className={classes.paper}>
         Resistance to silence and etiquette
         </h1>
@@ -61,11 +62,20 @@ export default function Sumo() {
                 At venues such as museums, we often feel the need to exhibit near pindrop silence and maybe even sophistication. Why is that? What about art implies the need to be silent and seem sophisticated? SUMo is an exploration of resistance to silence and sophistication, namely in the context of art.
         </body>
         
+        <body className={classes.paper}>
+        
+        SUMo functions by detecting the proximity of an observer within 5 ft of itself. If this person is then silent for more 5 seconds, enough for an observer to start becoming uncomfortable with silence, the buttocks on the relief sculpture will make a quick turn and a fart nose is played.
+                Why a fart? The sound is obscene and contradicts museum etiquette, which often prompts a visceral reaction from users.</body>
+
+
+      
         
 
       </div>
 
-<img src={museum} alt="Sumo" className="threeFourthWidththreeFourthHeightContentRight"></img>
+<div>
+<img src={museum} alt="Sumo" className="fullRow"></img>
+</div>
   
         
 <img className="fullRow" src={hand} />   
@@ -73,23 +83,23 @@ export default function Sumo() {
 <video className="fullRow" controls showOnStart autoPlay loop muted>
     <source src={inaction} type="video/mp4"></source>
   </video>
-  <div>
+  {/* <div>
         <div className="fullRowNohHeightTxtHeightTxt">
           <body className={classes.paper}>  SUMo functions by detecting the proximity of an observer within 5 ft of itself. If this person is then silent for more 5 seconds, enough for an observer to start becoming uncomfortable with silence, the buttocks on the relief sculpture will make a quick turn and a fart nose is played.
                 Why a fart? The sound is obscene and contradicts museum etiquette, which often prompts a visceral reaction from users.
           </body>
         </div> 
-    </div>
+    </div> */}
             
 
            
-                <img className="fullRow" alt="Circuit" src={circuit} />
+                {/* <img className="fullRow" alt="Circuit" src={circuit} />
            
                 
 
       
                 <img src={butt} className="fullRow" alt="Butt"/>
-          
+           */}
 
 
            

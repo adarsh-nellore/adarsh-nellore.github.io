@@ -164,6 +164,21 @@ height: 75%;
 
   
   }
+  
+  .threeFourthWidthContentCenter{
+    display: inline-block;
+    
+    float: center;
+    color:black;
+width: 75%;
+margin-left:5vw;
+padding-top: 2vw;
+height: 75%;
+    /* height:50vh; */
+   
+
+  
+  }
 
   .threeFourthWidthContentRight{
 

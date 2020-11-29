@@ -25,8 +25,8 @@ const useStyles = makeStyles(theme => ({
     wordSpacing: "-1px",
     backgroundColor: 'transparent',
     boxShadow: 'none',
-    fontFamily: 'Courier New',
-    fontSize: 12,
+    fontFamily: 'Arial',
+    fontSize: 25,
     textShadow: 'none',
     overflow:'auto'  
 
@@ -53,7 +53,7 @@ export default function Edwards() {
     
     <Aux>
 
-      <div className="oneFourthWidthContentLeft">
+      <div className="halfWidthContentLeft">
         <h1 className={classes.paper}>
         The Centerpoint Experience
         </h1>
@@ -68,10 +68,10 @@ export default function Edwards() {
 
       </div>
 
-        <img src={introImage} alt="Spatial Intro" className="threeFourthWidththreeFourthHeightContentRight"></img>
+        <img src={introImage} alt="Spatial Intro" className="fullRow"></img>
   
     
-              <img className="fullRow" src={chairDiagram} />               
+              {/* <img className="fullRow" src={chairDiagram} />                */}
                
              
 

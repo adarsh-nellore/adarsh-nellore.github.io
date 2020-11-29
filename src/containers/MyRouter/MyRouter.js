@@ -53,14 +53,14 @@ class MyRouter extends Component {
                                     color: '#ff0000'
                                 }}>  ENGINEERING WORK  //  </NavLink></li>
 
-                            <li className="navbar__link"><NavLink
+                           {/*  <li className="navbar__link"><NavLink
                                 to="/Communication/"
                                 exact
                                 activeClassName="my-active"
                                 activeStyle={{
                                     color: '#ff0000'
                                 }}>  COMS.LANGUAGE.WIP</NavLink></li>
-
+ */}
                         </ul>
                     </nav>
                 </header>

@@ -16,7 +16,7 @@ class SliderApp extends Component {
       {
 
         id: 1,
-        image: EdwardsVideo,
+        //image: EdwardsVideo,
         imageBg: EdwardsPhoto,
         title: "Edwards"
       },
@@ -86,7 +86,7 @@ class SliderApp extends Component {
     newStateArray.push({
 
       id: 1,
-      image: EdwardsVideo,
+     // image: EdwardsVideo,
       imageBg: EdwardsPhoto,
       title: "Edwards"
     });

@@ -31,13 +31,12 @@ const useStyles = makeStyles(theme => ({
   paper: {
     padding: theme.spacing(2),
     textAlign: "justify",
-    // color: '#0000ff',
     color: '#222222',
     wordSpacing: "-1px",
     backgroundColor: 'transparent',
     boxShadow: 'none',
-    fontFamily: 'Arial',
-    fontSize: 25,
+    fontFamily: 'Courier New',
+    fontSize: 12,
     textShadow: 'none',
     overflow:'auto'  
   }
@@ -49,45 +48,29 @@ export default function Spatial() {
   return (
     <Aux>
 
-      <div className="threeFourthWidthContentLeft">
+      <div className="oneFourthWidthContentLeft">
         <h1 className={classes.paper}>
           Spatial Resonance Project: Research and Theory
         </h1>
 
         <body className={classes.paper}>
-          A web application that converts 3-dimensional interior acoustics into music.
-          A culmination of research on interior spaces, sound, music, and production.
-        </body>
-
-        <body className={classes.paper}>
-          Is it possible to use interior spaces as instruments?
-          Can we translate interior resonance to music?
+          Can music producers make music by designing interior spaces?
+          Can we translate interior architecture to music?
           How might neural networks facilitate musical experiences?
         </body>
 
       </div>
-     
+      <div>
+        <img src={spatialIntro} alt="Spatial Intro" className="threeFourthWidththreeFourthHeightContentRight"></img>
+      </div>
 
 
       <div>
-        {/* <iframe src="https://adarsh-nellore.github.io/SpatialMusicPage1/MusicPage1.html" title="Spatial Music" className="fullRow"></iframe> */}
-
-
-        <iframe src="/SpatialMusicPage1/MusicScriptPage1.html" title="Spatial Composer" className="fullRow"></iframe>
-      </div>
-
-      
-      <video className="fullRow" controls showOnStart autoPlay loop muted>
-    <source src={spatialVideo} type="video/mp4"></source>
-  </video>
-
-  <div>
-        <img src={spatialIntro} alt="Spatial Intro" className="fullRow"></img>
+        <iframe src="https://adarsh-nellore.github.io/SpatialMusicPage1/MusicPage1.html" title="Spatial Music" className="fullRow"></iframe>
       </div>
 
 
-
-      {/* <div >
+      <div >
         <img src={reverb} alt="Reverb 1" className="halfWidthContentLeft" />
       </div>
       <div >
@@ -123,9 +106,9 @@ export default function Spatial() {
           Tangential modes involve two sets of surfaces and possess half the strength of axial modes.
               Oblique modes involve three or more sets of surfaces and possess the least strength. 
           </body>
-        </div> */}
+        </div>
 
-        {/* <div className="HalfWidthOneFourthHeightContentRight">
+        <div className="HalfWidthOneFourthHeightContentRight">
         <body className={classes.paper}>Interior spaces have fundamental resonances that depend on the inherent physical properties of the room, such as wall stiffness and room dimension.
               <mark>
               Key insight: Interior resonant frequencies correspond to musical notes. Interior resonant frequencies range from 20 Hz to 200 Hz.
@@ -145,23 +128,23 @@ export default function Spatial() {
         </div>
     </div>
 
-    <video className="fullRowHalfHeight" controls showOnStart autoPlay loop muted>
+    <video className="fullRow" controls showOnStart autoPlay loop muted>
           <source src={cube} type="video/mp4"></source>
     </video>
       
         
     <div>
-        <div className="fullRowHalfHeightTxt">
+        <div className="fullRowNohHeightTxt">
           <body className={classes.paper}> Studies show that when we listen to music, we often experience time dilation, which is when we perceive the passage of time as slower or faster than it actually is [1]. 
               Studies also show that listening to music influences our perception of physical space even experiencing our surroundings as "choreographed." [1] </body>
         </div> 
     </div>
 
-    <video className="fullRowHalfHeight" controls showOnStart autoPlay loop muted>
+    <video className="fullRow" controls showOnStart autoPlay loop muted>
         <source src={NYvideo} type="video/mp4"></source>
-    </video> */}
+    </video>
 
-    {/* <div className="fullRowHalfHeightTxt">
+    <div className="fullRowNohHeightTxt">
         <body className={classes.paper}> Music producers often use spatial qualities of interior spaces in music so as to invoke memories and conditioning of those spaces within listeners. 
               These qualities include attributes of interior spaces such as reverberation but also what I call 'natural spatial arrangement.'
 
@@ -169,8 +152,8 @@ export default function Spatial() {
     </div>
 
 <div>
-    <YouTube  className ="fullRowHalfHeight" videoId="zDk8pVOtiVY"  />
-      <div className="fullRowHalfHeightTxt">
+    <YouTube  className ="fullRow" videoId="zDk8pVOtiVY"  />
+      <div className="fullRowNohHeightTxt">
         <h3 className={classes.paper}>
               <mark>Hypothesis of natural spatial arrangement: </mark> The closer a song's frequency distribution is to that of 1/f noise, the more the song will invoke feelings of being in a larger physical space. 
               Let's test this theory out.
@@ -178,7 +161,7 @@ export default function Spatial() {
       </div>
       </div>           
   <div>
-  <div className="fullRowHalfHeightTxt">
+  <div className="fullRowNohHeightTxt">
     <body className={classes.paper}>
               <mark>Experiment:</mark> Between the songs "New Magic Wand" by Tyler the Creator and "Everything in Its Right Place" by Radiohead, I felt that the latter had a much more 'spatial' arrangement - using 
               more elements that are reminiscent of larger spaces such as reverberation and ambient sound.
@@ -189,26 +172,26 @@ export default function Spatial() {
             </div> 
   </div>
 <div>
-   */}
+  
  
-  {/* <iframe className="halfWidthContentLeft" src ="https://w.soundcloud.com/player/?url=https://soundcloud.com/adarsh-nellore/pink-noise&visual=true&buying=false&liking=false&download=false&sharing=false&show_comments=false&show_playcount=false&callback=true" allow="autoplay" />
-  <div >
+  <iframe className="halfWidthContentLeft" src ="https://w.soundcloud.com/player/?url=https://soundcloud.com/adarsh-nellore/pink-noise&visual=true&buying=false&liking=false&download=false&sharing=false&show_comments=false&show_playcount=false&callback=true" allow="autoplay" />
 
-<img  className="halfWidthContentRight" alt="Pink Noise" src={pinknoise} /> 
-</div>
+
+<img  className="halfWidthContentRight" src={pinknoise} /> 
+
 
 
   <iframe className="halfWidthContentLeft" src ="https://w.soundcloud.com/player/?url=https://soundcloud.com/adarsh-nellore/new-magic-wand&visual=true&buying=false&liking=false&download=false&sharing=false&show_comments=false&show_playcount=false&callback=true" allow="autoplay" />
- <div>
+
   <img  className="halfWidthContentRight" alt="Tyler" src={tyler} /> 
-  </div>
+
  
   <iframe className="halfWidthContentLeft" src ="https://w.soundcloud.com/player/?url=https://soundcloud.com/adarsh-nellore/everything-in-its-right-place-radiohead&visual=true&buying=false&liking=false&download=false&sharing=false&show_comments=false&show_playcount=false&callback=true" allow="autoplay" />
    
   <div>
   <img  className="halfWidthContentRight" alt="Radiohead" src={radiohead} /> 
   </div>
-   */}
+  
 
     {/* <ReactPlayer className="halfWidthContentLeft" controls showOnStart autoPlay loop muted url='https://soundcloud.com/adarsh-nellore/pink-noise' />
     
@@ -217,17 +200,17 @@ export default function Spatial() {
   
    
    
-           {/* </div>   
-  <div className="fullRowHalfHeightTxt">
+           </div>   
+  <div className="fullRowNohHeightTxt">
     <body className={classes.paper}>
       Binaural panning is another spatial technique often used within music that emulates human hearing of physical space by llowing you to position the direction of a signal source so your ears perceive the sound as coming from either in front, behind, above, below, and to the left or right of the listening position when using a stereo output</body>      
   </div>
 
-  <video className="fullRowHalfHeight" controls showOnStart autoPlay loop muted>
+  <video className="fullRow" controls showOnStart autoPlay loop muted>
       <source src={binaural} type="video/mp4"></source>
-  </video> */}
-{/* 
-  <div className="fullRowHalfHeightTxt">
+  </video>
+
+  <div className="fullRowNohHeightTxt">
   
 
     <body className={classes.paper}>
@@ -254,20 +237,20 @@ export default function Spatial() {
     </div>
      
          
-    <img className="fullRowHalfHeight" src={userjourney} alt="User journey"/> 
+    <img className="halfRowHalfHeight" src={userjourney} alt="User journey"/> 
 
 
   <video className="fullRow" controls showOnStart autoPlay loop muted>
     <source src={spatialVideo} type="video/mp4"></source>
   </video>
 
-               */}
-  {/* <div className="fullRowNohHeight">
+              
+  <div className="fullRowNohHeight">
     <body className={classes.paper}>Other Questions: 
       Could enhancing the inherent musical qualities of interior spaces influence our experience of their physical qualities?
      Could we create comforting atmospheres facilitated through natural soundscapes using the physical properties of interior spaces?
    </body>       
-  </div> */}
+  </div>
 
 
 </Aux>
