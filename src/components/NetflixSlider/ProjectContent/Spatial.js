@@ -70,10 +70,10 @@ export default function Spatial() {
 
 
       <div>
-        {/* <iframe src="https://adarsh-nellore.github.io/SpatialMusicPage1/MusicPage1.html" title="Spatial Music" className="fullRow"></iframe> */}
+        <iframe src="https://adarsh-nellore.github.io/SpatialMusicPage1/MusicPage1.html" title="Spatial Music" className="fullRow"></iframe>
 
 
-        <iframe src="/SpatialMusicPage1/MusicScriptPage1.html" title="Spatial Composer" className="fullRow"></iframe>
+        {/* <iframe src="/SpatialMusicPage1/MusicScriptPage1.html" title="Spatial Composer" className="fullRow"></iframe> */}
       </div>
 
       
